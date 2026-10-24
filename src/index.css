@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--bg:#f6f0e4;--card:#fffaf0;--tx:#3b3a33;--mu:#7a7766;--sg:#7f9a7f;--sl:#e1e9da;--rs:#d9a7a7;--bd:#e3d9c4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#26241f;--card:#322f28;--tx:#efe9da;--mu:#b5ae98;--sg:#8fae8f;--sl:#3a4a3c;--rs:#a67a7a;--bd:#4a463b}}
+:root[data-theme="dark"]{--bg:#26241f;--card:#322f28;--tx:#efe9da;--mu:#b5ae98;--sg:#8fae8f;--sl:#3a4a3c;--rs:#a67a7a;--bd:#4a463b}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}body{background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
