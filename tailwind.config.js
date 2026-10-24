@@ -1,0 +1,1 @@
+export default {content:['./index.html','./src/**/*.js'],theme:{extend:{colors:{bg:'var(--bg)',card:'var(--card)',tx:'var(--tx)',mu:'var(--mu)',sg:'var(--sg)',sl:'var(--sl)',rs:'var(--rs)',bd:'var(--bd)'}}}}
